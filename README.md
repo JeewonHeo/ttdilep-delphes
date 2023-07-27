@@ -5,7 +5,7 @@
 scram p -n delphes CMSSW CMSSW_10_5_0
 cd delphes/src
 cmsenv
-git clone git@gitlab.sscc.uos.ac.kr:vts/delphes.git
+git clone https://github.com/JeewonHeo/ttdilep-delphes.git
 scram b -j 20
 ```
 
