@@ -1,0 +1,14 @@
+<use name="delphes/external" />
+<use name="root"/>
+<use name="rootxml"/>
+  <lib name="Eve"/>
+  <lib name="EG"/>
+<flags CXXFLAGS="-g" />
+
+<export>
+  <lib name="1"/>
+</export>
+
+<flags CXXFLAGS="-I/pad/jheo/delphes/src/delphes/external/Delphes-3.4.2"/>
+<flags CXXFLAGS="-L/pad/jheo/delphes/src/delphes/external/Delphes-3.4.2"/>
+<flags CXXFLAGS="-lDelphes"/>

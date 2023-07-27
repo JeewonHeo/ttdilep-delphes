@@ -1,0 +1,24 @@
+<bin name="analyseTTDilepton" file="analyseTTDilepton.cc">
+  <use name="root"/>
+  <use name="rootxml"/>
+  <lib name="Eve"/>
+  <lib name="EG"/>
+  <use name="delphes/analysis"/>
+  <use name="delphes/external"/>
+  <flags CXXFLAGS="-I/pad/jheo/delphes/src/delphes/external/Delphes-3.4.2"/>
+  <flags CXXFLAGS="-L/pad/jheo/delphes/src/delphes/external/Delphes-3.4.2"/>
+  <flags CXXFLAGS="-lDelphes"/>
+</bin>
+
+<bin name="analyseTTSemilepton" file="analyseTTSemilepton.cc">
+  <use name="root"/>
+  <use name="rootxml"/>
+  <lib name="Eve"/>
+  <lib name="EG"/>
+  <use name="delphes/analysis"/>
+  <use name="delphes/external"/>
+  <flags CXXFLAGS="-I/pad/jheo/delphes/src/delphes/external/Delphes-3.4.2"/>
+  <flags CXXFLAGS="-L/pad/jheo/delphes/src/delphes/external/Delphes-3.4.2"/>
+  <flags CXXFLAGS="-lDelphes"/>
+</bin>
+
