@@ -28,3 +28,9 @@ cd ${CMSSW_BASE}/src/delphes/analysis/test
 ./makeBuildFile -d ${CMSSW_BASE}/src/delphes/external/Delphes-3.4.2
 ```
 
+## Run test script
+```bash
+cd ${CMSSW_BASE}/src/delphes/analysis/test
+# Put dlphes input file before running the test script
+./test.sh
+```
